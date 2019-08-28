@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/learn/',
   title: 'Ontic Learning',
   docsDir: 'docs',
   themeConfig: {
