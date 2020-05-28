@@ -4,6 +4,13 @@
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "start": "parcel ./react/index.html"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-reconciler": "^0.25.1"
   }
 }
